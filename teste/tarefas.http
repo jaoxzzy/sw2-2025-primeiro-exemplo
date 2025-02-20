@@ -1,4 +1,15 @@
-GET https://congenial-invention-wr4prj96vx93gw57-3000.app.github.dev/api/tarefas
+@url = https://congenial-invention-wr4prj96vx93gw57-3000.app.github.dev/api/tarefas
+
+GET {{url}}
 
 ###
-POST https://congenial-invention-wr4prj96vx93gw57-3000.app.github.dev/api/tarefas
+POST {{url}}
+Contemt-Type: application/json
+
+{
+    "id" : 10,
+    "title" : "Executar Aplicação"
+}
+
+###
+GET {{url}}/2
