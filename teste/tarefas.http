@@ -1,0 +1,4 @@
+GET https://congenial-invention-wr4prj96vx93gw57-3000.app.github.dev/api/tarefas
+
+###
+POST https://congenial-invention-wr4prj96vx93gw57-3000.app.github.dev/api/tarefas
